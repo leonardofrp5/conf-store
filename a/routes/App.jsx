@@ -7,7 +7,7 @@ import Information from '../containers/Information';
 import Payment from '../containers/Payment';
 import Success from '../containers/Success';
 import NotFound from '../containers/NotFound';
-import Layout from '../components/Layout';
+import Layout from '../components/Layaout';
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
         </Switch>
       </Layout>
     </BrowserRouter>
-  );
+  )
 }
 
 export default App;
